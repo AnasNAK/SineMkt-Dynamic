@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Welcome to SineMkt. Discover affordable furniture and interior design ideas for homes and wallets of all sizes. Shop online or find a store near you.">
+
         <!--font-family-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
         
@@ -15,7 +15,7 @@
         <title>SineMkt.</title>
 
         <!-- For favicon png -->
-		<link rel="shortcut icon" href="assets/logo/icon.png"/>
+        <link rel="shortcut icon" href="/logo/icon.png"/>
        
         <!--font-awesome.min.css-->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -71,139 +71,6 @@
 				</ol><!-- /ol-->
 				<!--/.carousel-indicator -->
 
-				<!--/.carousel-inner -->
-				<div class="carousel-inner" role="listbox">
-					<!-- .item -->
-					<div class="item active">
-						<div class="single-slide-item slide1">
-							<div class="container">
-								<div class="welcome-hero-content">
-									<div class="row">
-										<div class="col-sm-7">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-txt">
-													<h4>great design collection</h4>
-													<h2>cloth covered accent chair</h2>
-													<p>
-														This oak-effect wooden chair, with its high backrest and removable and washable seat cover, is practical and comfortable. To give it a new style, simply install an EKEDALEN cover in another color. 
-													</p>
-													<div class="packages-price">
-														<p>
-															$ 399.00
-															<del>$ 499.00</del>
-														</p>
-													</div>
-													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
-														<span class="lnr lnr-plus-circle"></span>
-														add <span>to</span> cart
-													</button>
-													<button class="btn-cart welcome-add-cart welcome-more-info" onclick="window.location.href='#'">
-														more info
-													</button>
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-										<div class="col-sm-5">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-img">
-													<img src="assets/images/slider/slider1.png" alt="slider image">
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-									</div><!--/.row-->
-								</div><!--/.welcome-hero-content-->
-							</div><!-- /.container-->
-						</div><!-- /.single-slide-item-->
-
-					</div><!-- /.item .active-->
-
-					<div class="item">
-						<div class="single-slide-item slide2">
-							<div class="container">
-								<div class="welcome-hero-content">
-									<div class="row">
-										<div class="col-sm-7">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-txt">
-													<h4>great design collection</h4>
-													<h2>mapple wood accent chair</h2>
-													<p>
-														The stools of the BERGMUND series have a comfortable seat and the covers to dress it are available in different colors, like this one in gray. And don't worry, it's machine washable. 
-													</p>
-													<div class="packages-price">
-														<p>
-															$ 199.00
-															<del>$ 299.00</del>
-														</p>
-													</div>
-													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
-														<span class="lnr lnr-plus-circle"></span>
-														add <span>to</span> cart
-													</button>
-													<button class="btn-cart welcome-add-cart welcome-more-info" onclick="window.location.href='#'">
-														more info
-													</button>
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-										<div class="col-sm-5">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-img">
-													<img src="assets/images/slider/slider2.png" alt="slider image">
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-									</div><!--/.row-->
-								</div><!--/.welcome-hero-content-->
-							</div><!-- /.container-->
-						</div><!-- /.single-slide-item-->
-
-					</div><!-- /.item .active-->
-
-					<div class="item">
-						<div class="single-slide-item slide3">
-							<div class="container">
-								<div class="welcome-hero-content">
-									<div class="row">
-										<div class="col-sm-7">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-txt">
-													<h4>great design collection</h4>
-													<h2>valvet accent arm chair</h2>
-													<p>
-														The SOLSTA armchair, neat and welcoming, has curved shapes and simple lines. Easy to place in tight spaces, it has a nice upholstered backrest too which allows you to place it in the middle of a room. 
-													</p>
-													<div class="packages-price">
-														<p>
-															$ 299.00
-															<del>$ 399.00</del>
-														</p>
-													</div>
-													<button class="btn-cart welcome-add-cart" onclick="window.location.href='#'">
-														<span class="lnr lnr-plus-circle"></span>
-														add <span>to</span> cart
-													</button>
-													<button class="btn-cart welcome-add-cart welcome-more-info" onclick="window.location.href='#'">
-														more info
-													</button>
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-										<div class="col-sm-5">
-											<div class="single-welcome-hero">
-												<div class="welcome-hero-img">
-													<img src="assets/images/slider/slider3.png" alt="slider image">
-												</div><!--/.welcome-hero-txt-->
-											</div><!--/.single-welcome-hero-->
-										</div><!--/.col-->
-									</div><!--/.row-->
-								</div><!--/.welcome-hero-content-->
-							</div><!-- /.container-->
-						</div><!-- /.single-slide-item-->
-						
-					</div><!-- /.item .active-->
-				</div><!-- /.carousel-inner-->
-
 			</div><!--/#header-carousel-->
 
 			<!-- top-area Start -->
@@ -232,7 +99,7 @@
 				                		<a href="#"><span class="lnr lnr-magnifier"></span></a>
 				                	</li><!--/.search-->
 				                	<li class="nav-setting">
-				                		<a href="login.php"><span class="lnr lnr-cog"></span></a>
+				                		<a href="<?= URLROOT ; ?>/Users/login"><span class="lnr lnr-cog"></span></a>
 				                	</li><!--/.search-->
 				                    <li class="dropdown">
 				                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
@@ -293,8 +160,8 @@
 				            <!-- Collect the nav links, forms, and other content for toggling -->
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-				                    <li class="active"><a href="">home</a></li>
-				                   	 <li class=""><a href="./NewArrival.php">new arrival</a></li>
+				                    <li class=""><a href="./index.php">home</a></li>
+				                    <li class="active"><a href="">new arrival</a></li>
 				                    <li class=""><a href="./Features.php">features</a></li>
 				                    <li class=""><a href="./Blog.php">blog</a></li>
 				                    <li class=""><a href="./ContactUs.php">contact</a></li>
@@ -312,74 +179,235 @@
 		</header><!--/.welcome-hero-->
 		<!--welcome-hero end -->
 
-		<!--populer-products start -->
-		<section id="populer-products" class="populer-products">
+		<!--new-arrivals start -->
+		<section id="new-arrivals" class="new-arrivals">
 			<div class="container">
-				<h1 id="v1">populer arm chair</h1>
-				<div class="populer-products-content">
+				<div class="section-header">
+					<h2>new arrivals</h2>
+				</div><!--/.section-header-->
+				<div class="new-arrivals-content">
 					<div class="row">
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-product-img mt40">
-									<img src="assets/images/populer-products/p1.png" alt="populer-products images">
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals1.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-1">
+										<p>sale</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
 								</div>
-								<h2><a href="#">arm chair</a></h2>
-								<div class="single-populer-products-para">
-									<p>STRANDMON is a traditional look but modern comfort for lots of good times.</p>
-								</div>
+								<h4><a href="#">wooden chair</a></h4>
+								<p class="arrival-product-price">$65.00</p>
 							</div>
 						</div>
-						<div class="col-md-6">
-							<div class="single-populer-products">
-								<div class="single-inner-populer-products">
-									<div class="row">
-										<div class="col-md-4 col-sm-12">
-											<div class="single-inner-populer-product-img">
-												<img src="assets/images/populer-products/p2.png" alt="populer-products images">
-											</div>
-										</div>
-										<div class="col-md-8 col-sm-12">
-											<div class="single-inner-populer-product-txt">
-												<h2>
-													<a href="#">
-														latest designed stool <span>and</span> chair
-													</a>
-												</h2>
-												<p>
-													Shop bar stools at Chairish, the design lover's marketplace for the best vintage and used furniture, decor and art. Make an offer today!
-												</p>
-												<div class="populer-products-price">
-													<h4>Sales Start from <span>$99.00</span></h4>
-												</div>
-												<button class="btn-cart welcome-add-cart populer-products-btn" onclick="window.location.href='#'">
-													discover more
-												</button>
-											</div>
-										</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals2.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-2">
+										<p>sale</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
 									</div>
 								</div>
+								<h4><a href="#">single armchair</a></h4>
+								<p class="arrival-product-price">$80.00</p>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<div class="single-populer-products">
-								<div class="single-populer-products">
-									<div class="single-populer-product-img">
-										<img src="assets/images/populer-products/p3.png" alt="populer-products images">
-									</div>
-									<h2><a href="#">hanging lamp</a></h2>
-									<div class="single-populer-products-para">
-										<p>Hot Sale Creative Indoor Decorative Modern Glass Pendant Light</p>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals3.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
 									</div>
 								</div>
+								<h4><a href="#">wooden armchair</a></h4>
+								<p class="arrival-product-price">$40.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals4.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-1">
+										<p>sale</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">stylish chair</a></h4>
+								<p class="arrival-product-price">$100.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals5.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">modern chair</a></h4>
+								<p class="arrival-product-price">$120.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals6.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-1">
+										<p>sale</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">mapple wood dinning table</a></h4>
+								<p class="arrival-product-price">$140.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals7.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="sale bg-2">
+										<p>sale</p>
+									</div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">arm chair</a></h4>
+								<p class="arrival-product-price">$90.00</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-4">
+							<div class="single-new-arrival">
+								<div class="single-new-arrival-bg">
+									<img src="assets/images/collection/arrivals8.png" alt="new-arrivals images">
+									<div class="single-new-arrival-bg-overlay"></div>
+									<div class="new-arrival-cart">
+										<p>
+											<span class="lnr lnr-cart"></span>
+											<a href="#">add <span>to </span> cart</a>
+										</p>
+										<p class="arrival-review pull-right">
+											<span class="lnr lnr-heart"></span>
+											<span class="lnr lnr-frame-expand"></span>
+										</p>
+									</div>
+								</div>
+								<h4><a href="#">wooden bed</a></h4>
+								<p class="arrival-product-price">$140.00</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div><!--/.container-->
+		
+		</section><!--/.new-arrivals-->
+		<!--new-arrivals end -->
 
-		</section><!--/.populer-products-->
-		<!--populer-products end-->
+		<!--sofa-collection start -->
+		<section id="sofa-collection">
+			<div class="owl-carousel owl-theme" id="collection-carousel">
+				<div class="sofa-collection collectionbg1">
+					<div class="container">
+						<div class="sofa-collection-txt">
+							<h2>unlimited sofa collection</h2>
+							<p>
+								NOVA Hot Sale Furniture L-shaped Fabric Modern Sofa Living Room Furniture Sofa Set Furniture 
+							</p>
+							<div class="sofa-collection-price">
+								<h4>starting from <span>$ 199</span></h4>
+							</div>
+							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
+								view more
+							</button>
+						</div>
+					</div>	
+				</div><!--/.sofa-collection-->
+				<div class="sofa-collection collectionbg2">
+					<div class="container">
+						<div class="sofa-collection-txt">
+							<h2>unlimited dainning table collection</h2>
+							<p>
+								Arrange a dining room area that can appeal to guests and family alike. With various colors and patterns, there are looks that are versatile and fit within any aesthetic be it modern or contemporary.  
+							</p>
+							<div class="sofa-collection-price">
+								<h4>starting from <span>$ 299</span></h4>
+							</div>
+							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
+								view more
+							</button>
+						</div>
+					</div>
+				</div><!--/.sofa-collection-->
+			</div><!--/.collection-carousel-->
 
+		</section><!--/.sofa-collection-->
+		<!--sofa-collection end -->
 
 		<!--footer start-->
 		<footer id="footer"  class="footer">
@@ -393,7 +421,7 @@
 						<a href="#"><i class="fa fa-behance"></i></a>	
 					</div>
 					<p>
-						&copy;copyright. designed and developed by <a href="https://www.AnasNAK.com/">Anas NAK</a>
+						&copy;copyright. designed and developed by <a href="https://www.AnasNAK.com/">AnasNAK</a>
 					</p><!--/p-->
 				</div><!--/.text-center-->
 			</div><!--/.container-->

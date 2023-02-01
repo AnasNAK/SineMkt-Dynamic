@@ -15,32 +15,32 @@
         <title>SineMkt.</title>
 
         <!-- For favicon png -->
-        <link rel="shortcut icon" href="<?= URLROOT;?>/logo/icon.png"/>
+		<link rel="shortcut icon" type="image/icon" href="<?= URLROOT ; ?>/logo/icon.png"/>
        
         <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="<?= URLROOT;?>/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/font-awesome.min.css">
 
         <!--linear icon css-->
-		<link rel="stylesheet" href="<?= URLROOT;?>/css/linearicons.css">
+		<link rel="stylesheet" href="<?= URLROOT ; ?>/css/linearicons.css">
 
 		<!--animate.css-->
-        <link rel="stylesheet" href="<?= URLROOT;?>/css/animate.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/animate.css">
 
         <!--owl.carousel.css-->
-        <link rel="stylesheet" href="<?= URLROOT;?>/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="<?= URLROOT;?>/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="<?= URLROOT ; ?>/css/owl.theme.default.min.css">
 		
         <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="<?= URLROOT;?>/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/bootstrap.min.css">
 		
 		<!-- bootsnav -->
-		<link rel="stylesheet" href="<?= URLROOT;?>/css/bootsnav.css" >	
+		<link rel="stylesheet" href="<?= URLROOT ; ?>/css/bootsnav.css" >	
         
         <!--style.css-->
-        <link rel="stylesheet" href="<?= URLROOT;?>/css/style.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/style.css">
         
         <!--responsive.css-->
-        <link rel="stylesheet" href="<?= URLROOT;?>/css/responsive.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/responsive.css">
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -70,6 +70,7 @@
 					<li data-target="#header-carousel" data-slide-to="2"><span class="small-circle"></span></li>
 				</ol><!-- /ol-->
 				<!--/.carousel-indicator -->
+
 
 			</div><!--/#header-carousel-->
 
@@ -152,7 +153,7 @@
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-				                <a class="navbar-brand" href="./index.php"><img src="<?= URLROOT ; ?>/logo/mylogo.png" alt="SineMkt."></a>
+				                <a class="navbar-brand" href="<?= URLROOT ; ?>/#"><img src="<?= URLROOT ; ?>/logo/mylogo.png" alt="SineMkt."></a>
 
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
@@ -161,9 +162,9 @@
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
 				                    <li class=""><a href="<?= URLROOT ; ?>/index.php">home</a></li>
-				                    <li class="active"><a href="<?= URLROOT ; ?>">new arrival</a></li>
+				                    <li class=""><a href="<?= URLROOT ; ?>/NewArrival.php">new arrival</a></li>
 				                    <li class=""><a href="<?= URLROOT ; ?>/Features.php">features</a></li>
-				                    <li class=""><a href="<?= URLROOT ; ?>/Blog.php">blog</a></li>
+				                    <li class="active"><a href="<?= URLROOT ; ?>/Blog.php">blog</a></li>
 				                    <li class=""><a href="<?= URLROOT ; ?>/ContactUs.php">contact</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
@@ -178,236 +179,104 @@
 
 		</header><!--/.welcome-hero-->
 		<!--welcome-hero end -->
-
-		<!--new-arrivals start -->
-		<section id="new-arrivals" class="new-arrivals">
+		<!--blog start -->
+		<section id="blog" class="blog">
 			<div class="container">
 				<div class="section-header">
-					<h2>new arrivals</h2>
+					<h2>latest blog</h2>
 				</div><!--/.section-header-->
-				<div class="new-arrivals-content">
+				<div class="blog-content">
 					<div class="row">
-						<div class="col-md-3 col-sm-4">
-							<div class="single-new-arrival">
-								<div class="single-new-arrival-bg">
-									<img src="<?= URLROOT ; ?>/images/collection/arrivals1.png" alt="new-arrivals images">
-									<div class="single-new-arrival-bg-overlay"></div>
-									<div class="sale bg-1">
-										<p>sale</p>
-									</div>
-									<div class="new-arrival-cart">
-										<p>
-											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
-										</p>
-										<p class="arrival-review pull-right">
-											<span class="lnr lnr-heart"></span>
-											<span class="lnr lnr-frame-expand"></span>
-										</p>
-									</div>
+						<div class="col-sm-4">
+							<div class="single-blog">
+								<div class="single-blog-img">
+									<img src="<?= URLROOT ; ?>/images/blog/b1.jpg" alt="blog image">
+									<div class="single-blog-img-overlay"></div>
 								</div>
-								<h4><a href="#">wooden chair</a></h4>
-								<p class="arrival-product-price">$65.00</p>
+								<div class="single-blog-txt">
+									<h2><a href="#">Why Brands are Looking at Local Language</a></h2>
+									<h3>By <a href="#">Robert Norby</a> / 18th March 2018</h3>
+									<p>
+										There are several reasons for brands to focus on these trends: 70% find local language digital content to be more reliable and 88% of Indian language users are more likely to respond to a digital advertisement in their language as compared to English. Roughly 90% of video consumption happens in local languages..... 
+									</p>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-sm-4">
+							<div class="single-blog">
+								<div class="single-blog-img">
+									<img src="<?= URLROOT ; ?>/images/blog/b2.jpg" alt="blog image">
+									<div class="single-blog-img-overlay"></div>
+								</div>
+								<div class="single-blog-txt">
+									<h2><a href="#">Why Brands are Looking at Local Language</a></h2>
+									<h3>By <a href="#">Robert Norby</a> / 18th March 2018</h3>
+									<p>
+										This trend is expected to get more pronounced in the coming years, based on the increasing availability of budget-friendly smartphones, cheap mobile data and growing consumerism in rural areas. As far as the internet goes, India is morphing into Bharat with Indic language users accounting for close to 75% of Indian netizens..... 
+									</p>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-4">
-							<div class="single-new-arrival">
-								<div class="single-new-arrival-bg">
-									<img src="<?= URLROOT ; ?>/images/collection/arrivals2.png" alt="new-arrivals images">
-									<div class="single-new-arrival-bg-overlay"></div>
-									<div class="sale bg-2">
-										<p>sale</p>
-									</div>
-									<div class="new-arrival-cart">
-										<p>
-											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
-										</p>
-										<p class="arrival-review pull-right">
-											<span class="lnr lnr-heart"></span>
-											<span class="lnr lnr-frame-expand"></span>
-										</p>
-									</div>
+						<div class="col-sm-4">
+							<div class="single-blog">
+								<div class="single-blog-img">
+									<img src="<?= URLROOT ; ?>/images/blog/b3.jpg" alt="blog image">
+									<div class="single-blog-img-overlay"></div>
 								</div>
-								<h4><a href="#">single armchair</a></h4>
-								<p class="arrival-product-price">$80.00</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-4">
-							<div class="single-new-arrival">
-								<div class="single-new-arrival-bg">
-									<img src="<?= URLROOT ; ?>/images/collection/arrivals3.png" alt="new-arrivals images">
-									<div class="single-new-arrival-bg-overlay"></div>
-									<div class="new-arrival-cart">
-										<p>
-											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
-										</p>
-										<p class="arrival-review pull-right">
-											<span class="lnr lnr-heart"></span>
-											<span class="lnr lnr-frame-expand"></span>
-										</p>
-									</div>
+								<div class="single-blog-txt">
+									<h2><a href="#">Why Brands are Looking at Local Language</a></h2>
+									<h3>By <a href="#">Robert Norby</a> / 18th March 2018</h3>
+									<p>
+										By October 2021, India had almost 799 million internet users. The story within this story is the projected growth of Indic language users to reach 536 million, clocking a CAGR of 18%. This is not only led by penetration of the internet in rural India, Indic language users are almost 50% of the total active internet base in Urban India as well..... 
+									</p>
 								</div>
-								<h4><a href="#">wooden armchair</a></h4>
-								<p class="arrival-product-price">$40.00</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-4">
-							<div class="single-new-arrival">
-								<div class="single-new-arrival-bg">
-									<img src="<?= URLROOT ; ?>/images/collection/arrivals4.png" alt="new-arrivals images">
-									<div class="single-new-arrival-bg-overlay"></div>
-									<div class="sale bg-1">
-										<p>sale</p>
-									</div>
-									<div class="new-arrival-cart">
-										<p>
-											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
-										</p>
-										<p class="arrival-review pull-right">
-											<span class="lnr lnr-heart"></span>
-											<span class="lnr lnr-frame-expand"></span>
-										</p>
-									</div>
-								</div>
-								<h4><a href="#">stylish chair</a></h4>
-								<p class="arrival-product-price">$100.00</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-4">
-							<div class="single-new-arrival">
-								<div class="single-new-arrival-bg">
-									<img src="<?= URLROOT ; ?>/images/collection/arrivals5.png" alt="new-arrivals images">
-									<div class="single-new-arrival-bg-overlay"></div>
-									<div class="new-arrival-cart">
-										<p>
-											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
-										</p>
-										<p class="arrival-review pull-right">
-											<span class="lnr lnr-heart"></span>
-											<span class="lnr lnr-frame-expand"></span>
-										</p>
-									</div>
-								</div>
-								<h4><a href="#">modern chair</a></h4>
-								<p class="arrival-product-price">$120.00</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-4">
-							<div class="single-new-arrival">
-								<div class="single-new-arrival-bg">
-									<img src="<?= URLROOT ; ?>/images/collection/arrivals6.png" alt="new-arrivals images">
-									<div class="single-new-arrival-bg-overlay"></div>
-									<div class="sale bg-1">
-										<p>sale</p>
-									</div>
-									<div class="new-arrival-cart">
-										<p>
-											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
-										</p>
-										<p class="arrival-review pull-right">
-											<span class="lnr lnr-heart"></span>
-											<span class="lnr lnr-frame-expand"></span>
-										</p>
-									</div>
-								</div>
-								<h4><a href="#">mapple wood dinning table</a></h4>
-								<p class="arrival-product-price">$140.00</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-4">
-							<div class="single-new-arrival">
-								<div class="single-new-arrival-bg">
-									<img src="<?= URLROOT ; ?>/images/collection/arrivals7.png" alt="new-arrivals images">
-									<div class="single-new-arrival-bg-overlay"></div>
-									<div class="sale bg-2">
-										<p>sale</p>
-									</div>
-									<div class="new-arrival-cart">
-										<p>
-											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
-										</p>
-										<p class="arrival-review pull-right">
-											<span class="lnr lnr-heart"></span>
-											<span class="lnr lnr-frame-expand"></span>
-										</p>
-									</div>
-								</div>
-								<h4><a href="#">arm chair</a></h4>
-								<p class="arrival-product-price">$90.00</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-4">
-							<div class="single-new-arrival">
-								<div class="single-new-arrival-bg">
-									<img src="<?= URLROOT ; ?>/images/collection/arrivals8.png" alt="new-arrivals images">
-									<div class="single-new-arrival-bg-overlay"></div>
-									<div class="new-arrival-cart">
-										<p>
-											<span class="lnr lnr-cart"></span>
-											<a href="#">add <span>to </span> cart</a>
-										</p>
-										<p class="arrival-review pull-right">
-											<span class="lnr lnr-heart"></span>
-											<span class="lnr lnr-frame-expand"></span>
-										</p>
-									</div>
-								</div>
-								<h4><a href="#">wooden bed</a></h4>
-								<p class="arrival-product-price">$140.00</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div><!--/.container-->
+			
+		</section><!--/.blog-->
+		<!--blog end -->
+
+		<!-- clients strat -->
+		<section id="clients"  class="clients">
+			<div class="container">
+				<div class="owl-carousel owl-theme" id="client">
+						<div class="item">
+							<a href="#">
+								<img src="<?= URLROOT ; ?>/images/clients/c1.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="<?= URLROOT ; ?>/images/clients/c2.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="<?= URLROOT ; ?>/images/clients/c3.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="<?= URLROOT ; ?>/images/clients/c4.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="#">
+								<img src="<?= URLROOT ; ?>/images/clients/c5.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
+
+			</div><!--/.container-->
+
+		</section><!--/.clients-->	
+		<!-- clients end -->
+
 		
-		</section><!--/.new-arrivals-->
-		<!--new-arrivals end -->
-
-		<!--sofa-collection start -->
-		<section id="sofa-collection">
-			<div class="owl-carousel owl-theme" id="collection-carousel">
-				<div class="sofa-collection collectionbg1">
-					<div class="container">
-						<div class="sofa-collection-txt">
-							<h2>unlimited sofa collection</h2>
-							<p>
-								NOVA Hot Sale Furniture L-shaped Fabric Modern Sofa Living Room Furniture Sofa Set Furniture 
-							</p>
-							<div class="sofa-collection-price">
-								<h4>starting from <span>$ 199</span></h4>
-							</div>
-							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
-								view more
-							</button>
-						</div>
-					</div>	
-				</div><!--/.sofa-collection-->
-				<div class="sofa-collection collectionbg2">
-					<div class="container">
-						<div class="sofa-collection-txt">
-							<h2>unlimited dainning table collection</h2>
-							<p>
-								Arrange a dining room area that can appeal to guests and family alike. With various colors and patterns, there are looks that are versatile and fit within any aesthetic be it modern or contemporary.  
-							</p>
-							<div class="sofa-collection-price">
-								<h4>starting from <span>$ 299</span></h4>
-							</div>
-							<button class="btn-cart welcome-add-cart sofa-collection-btn" onclick="window.location.href='#'">
-								view more
-							</button>
-						</div>
-					</div>
-				</div><!--/.sofa-collection-->
-			</div><!--/.collection-carousel-->
-
-		</section><!--/.sofa-collection-->
-		<!--sofa-collection end -->
 
 		<!--footer start-->
 		<footer id="footer"  class="footer">

@@ -1,4 +1,4 @@
-<?= URLROOT ; ?><!doctype html>
+<!doctype html>
 <html class="no-js" lang="en">
 
 <head>
@@ -16,32 +16,32 @@
 	<title>SineMkt.</title>
 
 	<!-- For favicon png -->
-	<link rel="shortcut icon" type="image/icon" href="<?= URLROOT ; ?>/logo/icon.png" />
+	<link rel="shortcut icon" type="image/icon" href="assets/logo/icon.png" />
 
 	<!--font-awesome.min.css-->
-	<link rel="stylesheet" href="<?= URLROOT ; ?>/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
 	<!--linear icon css-->
-	<link rel="stylesheet" href="<?= URLROOT ; ?>/css/linearicons.css">
+	<link rel="stylesheet" href="assets/css/linearicons.css">
 
 	<!--animate.css-->
-	<link rel="stylesheet" href="<?= URLROOT ; ?>/css/animate.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
 
 	<!--owl.carousel.css-->
-	<link rel="stylesheet" href="<?= URLROOT ; ?>/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="<?= URLROOT ; ?>/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
 	<!--bootstrap.min.css-->
-	<link rel="stylesheet" href="<?= URLROOT ; ?>/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
 	<!-- bootsnav -->
-	<link rel="stylesheet" href="<?= URLROOT ; ?>/css/bootsnav.css">
+	<link rel="stylesheet" href="assets/css/bootsnav.css">
 
 	<!--style.css-->
-	<link rel="stylesheet" href="<?= URLROOT ; ?>/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 
 	<!--responsive.css-->
-	<link rel="stylesheet" href="<?= URLROOT ; ?>/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -108,7 +108,7 @@
 								</li>
 								<!--/.search-->
 								<li class="nav-setting">
-									<a href="<?= URLROOT ; ?>/Users/login"><span class="lnr lnr-cog"></span></a>
+									<a href="login.php"><span class="lnr lnr-cog"></span></a>
 								</li>
 								<!--/.search-->
 								<li class="dropdown">
@@ -118,7 +118,7 @@
 									</a>
 									<ul class="dropdown-menu cart-list s-cate">
 										<li class="single-cart-list">
-											<a href="#" class="photo"><img src="<?= URLROOT ; ?>/images/collection/arrivals1.png"
+											<a href="#" class="photo"><img src="assets/images/collection/arrivals1.png"
 													class="cart-thumb" alt="image" /></a>
 											<div class="cart-list-txt">
 												<h6><a href="#">arm <br> chair</a></h6>
@@ -132,7 +132,7 @@
 										</li>
 										<!--/.single-cart-list -->
 										<li class="single-cart-list">
-											<a href="#" class="photo"><img src="<?= URLROOT ; ?>/images/collection/arrivals2.png"
+											<a href="#" class="photo"><img src="assets/images/collection/arrivals2.png"
 													class="cart-thumb" alt="image" /></a>
 											<div class="cart-list-txt">
 												<h6><a href="#">single <br> armchair</a></h6>
@@ -146,7 +146,7 @@
 										</li>
 										<!--/.single-cart-list -->
 										<li class="single-cart-list">
-											<a href="#" class="photo"><img src="<?= URLROOT ; ?>/images/collection/arrivals3.png"
+											<a href="#" class="photo"><img src="assets/images/collection/arrivals3.png"
 													class="cart-thumb" alt="image" /></a>
 											<div class="cart-list-txt">
 												<h6><a href="#">wooden arn <br> chair</a></h6>
@@ -178,7 +178,7 @@
 								data-target="#navbar-menu">
 								<i class="fa fa-bars"></i>
 							</button>
-							<a class="navbar-brand" href="<?= URLROOT ; ?>/index"><img src="<?= URLROOT ; ?>/logo/mylogo.png"
+							<a class="navbar-brand" href="./Index1.php"><img src="assets/logo/mylogo.png"
 									alt="SineMkt."></a>
 
 						</div>
@@ -188,10 +188,10 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 							<ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-								<li class=""><a href="<?= URLROOT ; ?>/Index.php">home</a></li>
-								<li class=""><a href="<?= URLROOT ; ?>/NewArrival.php">new arrival</a></li>
-								<li class=""><a href="<?= URLROOT ; ?>/Features.php">features</a></li>
-								<li class=""><a href="<?= URLROOT ; ?>/Blog.php">blog</a></li>
+								<li class=""><a href="./Index.php">home</a></li>
+								<li class=""><a href="./NewArrival.php">new arrival</a></li>
+								<li class=""><a href="./Features.php">features</a></li>
+								<li class=""><a href="./Blog.php">blog</a></li>
 								<li class="active"><a href="">contact</a></li>
 							</ul>
 							<!--/.nav -->
@@ -424,26 +424,26 @@
 
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<script src="<?= URLROOT ; ?>/js/jquery.js"></script>
+		<script src="assets/js/jquery.js"></script>
 
 		<!--modernizr.min.js-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
 		<!--bootstrap.min.js-->
-		<script src="<?= URLROOT ; ?>/js/bootstrap.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 
 		<!-- bootsnav js -->
-		<script src="<?= URLROOT ; ?>/js/bootsnav.js"></script>
+		<script src="assets/js/bootsnav.js"></script>
 
 		<!--owl.carousel.js-->
-		<script src="<?= URLROOT ; ?>/js/owl.carousel.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
 
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
 
 		<!--Custom JS-->
-		<script src="<?= URLROOT ; ?>/js/custom.js"></script>
+		<script src="assets/js/custom.js"></script>
 
 </body>
 
