@@ -66,7 +66,7 @@ class Users extends Controller
 
                 //validated
                 //check and set logged in user
-                $loggedInUser = $this->userModel->login($data['email'],$data['password']);
+                $loggedInUser = $this->userModel->login($data['email'], $data['password']);
 
                 if ($loggedInUser) {
                     //creat a session 
