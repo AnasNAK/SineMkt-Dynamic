@@ -30,12 +30,6 @@
                 </div>
 
                 <div>
-                    <label class="font-bold" for="stock">Stock</label>
-                    <input id="stock" name="stock" value="<?= $data['stock'] ?>" type="number" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-[#685942] rounded-md focus:border-[#685942] focus:outline-none focus:ring   ">
-                    <span class="font-bold text-orange-400"><?php echo $data['stock_err']; ?></span>
-                </div>
-
-                <div>
                     <label class="font-bold" for="price">Price</label>
                     <input id="price" name="price" value="<?= $data['price'] ?>" type="number" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-[#685942] rounded-md focus:border-[#685942] focus:outline-none focus:ring ">
                     <span class="font-bold text-orange-400"><?php echo $data['price_err']; ?></span>

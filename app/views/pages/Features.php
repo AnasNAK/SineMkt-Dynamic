@@ -15,32 +15,32 @@
         <title>SineMkt.</title>
 
         <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/icon.png"/>
+		<link rel="shortcut icon" type="image/icon" href="<?= URLROOT ; ?>/logo/icon.png"/>
        
         <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/font-awesome.min.css">
 
         <!--linear icon css-->
-		<link rel="stylesheet" href="assets/css/linearicons.css">
+		<link rel="stylesheet" href="<?= URLROOT ; ?>/css/linearicons.css">
 
 		<!--animate.css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/animate.css">
 
         <!--owl.carousel.css-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="<?= URLROOT ; ?>/css/owl.theme.default.min.css">
 		
         <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/bootstrap.min.css">
 		
 		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+		<link rel="stylesheet" href="<?= URLROOT ; ?>/css/bootsnav.css" >	
         
         <!--style.css-->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/style.css">
         
         <!--responsive.css-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="<?= URLROOT ; ?>/css/responsive.css">
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -109,7 +109,7 @@
 				                        </a>
 				                        <ul class="dropdown-menu cart-list s-cate">
 				                            <li class="single-cart-list">
-				                                <a href="#" class="photo"><img src="assets/images/collection/arrivals1.png" class="cart-thumb" alt="image" /></a>
+				                                <a href="#" class="photo"><img src="<?= URLROOT ; ?>/images/collection/arrivals1.png" class="cart-thumb" alt="image" /></a>
 				                                <div class="cart-list-txt">
 				                                	<h6><a href="#">arm <br> chair</a></h6>
 				                                	<p>1 x - <span class="price">$180.00</span></p>
@@ -119,7 +119,7 @@
 				                                </div><!--/.cart-close-->
 				                            </li><!--/.single-cart-list -->
 				                            <li class="single-cart-list">
-				                                <a href="#" class="photo"><img src="assets/images/collection/arrivals2.png" class="cart-thumb" alt="image" /></a>
+				                                <a href="#" class="photo"><img src="<?= URLROOT ; ?>/images/collection/arrivals2.png" class="cart-thumb" alt="image" /></a>
 				                                <div class="cart-list-txt">
 				                                	<h6><a href="#">single <br> armchair</a></h6>
 				                                	<p>1 x - <span class="price">$180.00</span></p>
@@ -129,7 +129,7 @@
 				                                </div><!--/.cart-close-->
 				                            </li><!--/.single-cart-list -->
 				                            <li class="single-cart-list">
-				                                <a href="#" class="photo"><img src="assets/images/collection/arrivals3.png" class="cart-thumb" alt="image" /></a>
+				                                <a href="#" class="photo"><img src="<?= URLROOT ; ?>/images/collection/arrivals3.png" class="cart-thumb" alt="image" /></a>
 				                                <div class="cart-list-txt">
 				                                	<h6><a href="#">wooden arn <br> chair</a></h6>
 				                                	<p>1 x - <span class="price">$180.00</span></p>
@@ -153,7 +153,7 @@
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-				                <a class="navbar-brand" href="./index.php"><img src="assets/logo/mylogo.png" alt="SineMkt."></a>
+				                <a class="navbar-brand" href="./index.php"><img class="logo-hero" src="<?= URLROOT ; ?>/logo/mylogo.png" alt="SineMkt."></a>
 
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
@@ -161,11 +161,11 @@
 				            <!-- Collect the nav links, forms, and other content for toggling -->
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-				                    <li class="active"><a href="./index.php">home</a></li>
-				                    <li class=""><a href="./NewArrival.php">new arrival</a></li>
+				                    <li class="active"><a href="<?= URLROOT ; ?>/Pages/index">home</a></li>
+				                    <li class=""><a href="<?= URLROOT ; ?>/Pages/NewArrival">new arrival</a></li>
 				                    <li class="active"><a href="">features</a></li>
-				                    <li class=""><a href="./Blog.php">blog</a></li>
-				                    <li class=""><a href="./ContactUs.php">contact</a></li>
+				                    <li class=""><a href="<?= URLROOT ; ?>/Pages/Blog">blog</a></li>
+				                    <li class=""><a href="<?= URLROOT ; ?>/Pages/ContactUs">contact</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->
@@ -190,7 +190,7 @@
 					<div class="row">
 						<div class="col-sm-3">
 							<div class="single-feature">
-								<img src="assets/images/features/f1.jpg" alt="feature image">
+								<img src="<?= URLROOT ; ?>/images/features/f1.jpg" alt="feature image">
 								<div class="single-feature-txt text-center">
 									<p>
 										<i class="fa fa-star"></i>
@@ -207,7 +207,7 @@
 						</div>
 						<div class="col-sm-3">
 							<div class="single-feature">
-								<img src="assets/images/features/f2.jpg" alt="feature image">
+								<img src="<?= URLROOT ; ?>/images/features/f2.jpg" alt="feature image">
 								<div class="single-feature-txt text-center">
 									<p>
 										<i class="fa fa-star"></i>
@@ -224,7 +224,7 @@
 						</div>
 						<div class="col-sm-3">
 							<div class="single-feature">
-								<img src="assets/images/features/f3.jpg" alt="feature image">
+								<img src="<?= URLROOT ; ?>/images/features/f3.jpg" alt="feature image">
 								<div class="single-feature-txt text-center">
 									<p>
 										<i class="fa fa-star"></i>
@@ -241,7 +241,7 @@
 						</div>
 						<div class="col-sm-3">
 							<div class="single-feature">
-								<img src="assets/images/features/f4.jpg" alt="feature image">
+								<img src="<?= URLROOT ; ?>/images/features/f4.jpg" alt="feature image">
 								<div class="single-feature-txt text-center">
 									<p>
 										<i class="fa fa-star"></i>
@@ -294,26 +294,26 @@
 		
 		<!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<script src="assets/js/jquery.js"></script>
+		<script src="<?= URLROOT ; ?>/js/jquery.js"></script>
         
         <!--modernizr.min.js-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		
 		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="<?= URLROOT ; ?>/js/bootstrap.min.js"></script>
 		
 		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
+		<script src="<?= URLROOT ; ?>/js/bootsnav.js"></script>
 
 		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="<?= URLROOT ; ?>/js/owl.carousel.min.js"></script>
 
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 		
         
         <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
+        <script src="<?= URLROOT ; ?>/js/custom.js"></script>
         
     </body>
 	

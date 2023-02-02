@@ -153,7 +153,7 @@
 				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 				                    <i class="fa fa-bars"></i>
 				                </button>
-				                <a class="navbar-brand" href="<?= URLROOT ; ?>/#"><img src="<?= URLROOT ; ?>/logo/mylogo.png" alt="SineMkt."></a>
+				                <a class="navbar-brand" href="<?= URLROOT ; ?>/#"><img class="logo-hero" src="<?= URLROOT ; ?>/logo/mylogo.png" alt="SineMkt."></a>
 
 				            </div><!--/.navbar-header-->
 				            <!-- End Header Navigation -->
@@ -161,11 +161,11 @@
 				            <!-- Collect the nav links, forms, and other content for toggling -->
 				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 				                <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
-				                    <li class=""><a href="<?= URLROOT ; ?>/index.php">home</a></li>
-				                    <li class=""><a href="<?= URLROOT ; ?>/NewArrival.php">new arrival</a></li>
-				                    <li class=""><a href="<?= URLROOT ; ?>/Features.php">features</a></li>
-				                    <li class="active"><a href="<?= URLROOT ; ?>/Blog.php">blog</a></li>
-				                    <li class=""><a href="<?= URLROOT ; ?>/ContactUs.php">contact</a></li>
+				                    <li class=""><a href="<?= URLROOT ; ?>/Pages/index">home</a></li>
+				                    <li class=""><a href="<?= URLROOT ; ?>/Pages/NewArrival">new arrival</a></li>
+				                    <li class=""><a href="<?= URLROOT ; ?>/Pages/Features">features</a></li>
+				                    <li class="active"><a href="<?= URLROOT ; ?>/Pages/Blog">blog</a></li>
+				                    <li class=""><a href="<?= URLROOT ; ?>/Pages/ContactUs">contact</a></li>
 				                </ul><!--/.nav -->
 				            </div><!-- /.navbar-collapse -->
 				        </div><!--/.container-->

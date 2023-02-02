@@ -15,7 +15,7 @@
     <div>
         <div class="flex bg-[#685942] rounded-lg shadow-lg overflow-hidden mx-auto my-20 max-w-sm lg:max-w-4xl ">
             <div class="hidden my-auto lg:block lg:w-1/2 bg-cover flex flex-col justify-center items-center">
-                <img class="w-max ml-5  flex justify-items-center rounded-2xl " src="../public/img/simplone.png" alt="">
+                <img class="w-max ml-5  flex justify-items-center rounded-2xl " src="<?php echo URLROOT .'/images/clients/Nakhli.jpg'?>" alt="">
             </div>
             <div class="w-full p-8 lg:w-1/2">
                 <h2 class="text-2xl font-semibold text-white text-center">SineMkt</h2>

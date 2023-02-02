@@ -21,25 +21,22 @@
     <!-- form add product -->
     <section class="max-w-4xl p-6 mx-auto bg-[#E8D0AC] rounded-md shadow-md my-7">
         <h1 class="text-4xl font-bold capitalize ">Add Product</h1>
-        <form action="<?= URLROOT . '/Products/add'; ?>" method="POST"  id="form" enctype="multipart/form-data">
-            
+        <form action="<?= URLROOT . '/Products/add'; ?>" method="POST" id="form" enctype="multipart/form-data">
+
             <div id="formInp">
                 <div class="form-group mb-6">
-                    <input type="text" name="name[]" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"  placeholder="Product Name">
+                    <input type="text" name="name" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Product Name">
                 </div>
                 <div class="form-group mb-6 flex gap-4">
                     <div class="">
-                        <input type="number" name="price[]" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Product Price">
-                    </div>
-                    <div class="">
-                        <input type="number" name="stock[]" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Product Quantity">
+                        <input type="number" name="price" class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" placeholder="Product Price">
                     </div>
                 </div>
                 <div class="form-group mb-6">
-                    <textarea name="description[]" class=" form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none "  rows="3" placeholder="Product Description" ></textarea>
+                    <textarea name="description" class=" form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none " rows="3" placeholder="Product Description"></textarea>
                 </div>
                 <div class="form-group mb-6 w-full">
-                    <input type="file" name="image[]" class="block">
+                    <input type="file" name="image" class="block">
                 </div>
                 <hr class="border-2 my-4">
             </div>
@@ -49,16 +46,13 @@
                     <button type="submit" class="px-6 py-2 leading-5 transform rounded-md focus:outline-none font-bold bg-[#FFF8ED] transition hover:bg-[#685942] hover:text-[#FFF2DF]">
                         Save
                     </button>
-                   <a href="<?= URLROOT ?>/products/dashboardAdmin">
-                   <button type="button" class="px-6 py-2 leading-5 transform rounded-md focus:outline-none font-bold bg-[#FFF8ED] transition hover:bg-[#685942] hover:text-[#FFF2DF]">
-                        Cancel
-                    </button>
-                   </a>
+                    <a href="<?= URLROOT ?>/products/dashboardAdmin">
+                        <button type="button" class="px-6 py-2 leading-5 transform rounded-md focus:outline-none font-bold bg-[#FFF8ED] transition hover:bg-[#685942] hover:text-[#FFF2DF]">
+                            Cancel
+                        </button>
+                    </a>
                 </div>
                 <div>
-                    <button id="oneMore" class="px-6 py-2 leading-5 transform rounded-md focus:outline-none font-bold bg-[#FFF8ED] transition hover:bg-[#685942] hover:text-[#FFF2DF]">
-                        Add Another Product
-                    </button>
                 </div>
             </div>
         </form>
